@@ -1,0 +1,22 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 52px;
+}
+
+.thinText {
+    font-weight: 200;
+}
+
+.editIcon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.deleteIcon {
+    font-size: 24px;
+    margin-right: 10px;
+}
