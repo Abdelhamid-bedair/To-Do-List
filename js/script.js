@@ -1,3 +1,8 @@
+localStorage .setItem ("user", "abdelhamid");
+
+var user=localStorage .getItem("user");
+console .log(user);
+
 var taskName = document.getElementById("taskName");
 var taskDate = document.getElementById("taskDate");
 var taskNotes = document.getElementById("taskNotes");
@@ -37,3 +42,5 @@ function displayTasks() {
     }
     document.getElementById("todoList").innerHTML = displayedTasks;
 };
+
+
