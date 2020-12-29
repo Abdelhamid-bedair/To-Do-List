@@ -32,8 +32,8 @@ function displayTasks() {
             <h4 class="card-title">`+ tasksContainer[i].name + `</h4>
              <p>`+ tasksContainer[i].notes + `</p></div>
             <div class="card-footer text-muted">
-            <button class="btn btn-outline-dark"><i class="far fa-edit editIcon"></i>Edit</button>
-            <button class="btn btn-outline-dark"><i class="far fa-calendar-minus deleteIcon"></i>Delete</button></div></div>`
+            <button class="btn btn-dark"><i class="far fa-edit editIcon"></i>Edit</button>
+            <button class="btn btn-dark"><i class="far fa-calendar-minus deleteIcon"></i>Delete</button></div></div>`
     }
     document.getElementById("todoList").innerHTML = displayedTasks;
 };
