@@ -49,6 +49,7 @@ function displayTasks() {
 function deleteTask(taskIndex) {
 
     tasksContainer.splice(taskIndex, 1);
+    localStorage.setItem("storedTasks", JSON.stringify(tasksContainer))
     displayTasks();
 }
 
