@@ -21,14 +21,13 @@
 <body>
     <div class="container my-5">
         <div class="row justify-content-center">
-
-            <header>
-            
+            <!--====== Header ======-->
+            <header class="header w-100">
                 <h1 class="title my-5"> <span class="thinText">2021<br></span> To-Do <span class="thinText">list</span>
                     <span><i class="fas fa-bars"></i></span>
                 </h1>
             </header>
-
+            <!--====== Form ======-->
             <section class="w-100">
                 <div class="input-group my-3">
                     <div class="input-group-prepend">
@@ -53,21 +52,21 @@
                     <input id="taskNotes" type="text" class="form-control" placeholder="Notes" aria-label="taskNotes"
                         aria-describedby="basic-addon1">
 
-                    <button type="button" onclick="addNewTask()" class="btn btn-dark btn-lg btn-block my-3">
+                    <button id="addOrEditBtn" type="button" onclick="addNewTask()"
+                        class="btn btn-dark btn-lg btn-block my-3">
                         <i class="far fa-calendar-plus editIcon"></i>Add</button>
                 </div>
             </section>
-
+            <!--====== Final To-Do List ======-->
             <section class="w-100">
                 <div id="todoList" class="w-100 my-2">
                 </div>
             </section>
-
+            <!--====== Delete All-button ======-->
             <section id="deleteAllBtn" class="w-100 my-2">
                 <button type="button" onclick="deleteAll()" class="btn btn-dark btn-lg btn-block my-3">
-                    <i class="far fa-calendar-plus editIcon"></i>Delete all</button>
+                    <i class="far fa-trash-alt editIcon"></i>Delete all</button>
             </section>
-
         </div>
 
         <!-- ======  Scripts ======  -->
