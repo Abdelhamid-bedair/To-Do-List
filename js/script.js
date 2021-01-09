@@ -61,9 +61,6 @@ function editTaskInputs(taskIndex) {
     editTask();
 };
 
-function editTask() {
-
-}
 
 function topFunction() {
     document.body.scrollTop = 0;
