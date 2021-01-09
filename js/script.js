@@ -3,7 +3,7 @@ var taskName = document.getElementById("taskName");
 var taskDate = document.getElementById("taskDate");
 var taskNotes = document.getElementById("taskNotes");
 
-/*============ To Add new task then save all tasks array it in the local storage ==========*/
+/*============ To Add new task then save all tasks array in the local storage ==========*/
 function addNewTask() {
     var task = {
         name: taskName.value,
@@ -62,10 +62,7 @@ function editTaskInputs(taskIndex) {
 };
 
 function editTask() {
-    if (document.getElementById("addOrEditBtn").innerHTML = `<i class="far fa-save editIcon"></i>save`); {
-        addOrEditBtn.onclick = console.log("a");
 
-    }
 }
 
 function topFunction() {
