@@ -70,7 +70,7 @@ function downFunction() {
     window.scrollTo(0, document.body.scrollHeight);
 };
 
-/*============ Saving date to local storage ==========*/
+/*============ Saving data to local storage ==========*/
 if (localStorage.getItem("storedTasks") == null) {
     tasksContainer = [];
 }
