@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-do list</title>
-    <!--====== Bootstrap css ======-->
+    <!--====== Bootstrap ======-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!--====== My css ======-->
     <link rel="stylesheet" href="css/stylesheet.css">
@@ -23,7 +23,7 @@
         <div class="row justify-content-center">
             <!--====== Header ======-->
             <header class="header w-100">
-                <h1 class="title my-5"> <span class="thinText">2021<br></span> To-Do <span class="thinText">list</span>
+                <h1 class="title my-5"> <span class="thinText">2022<br></span> To-Do <span class="thinText">list</span>
                     <span><i class="fas fa-bars"></i></span>
                 </h1>
             </header>
@@ -31,17 +31,9 @@
             <section class="w-100">
                 <div class="input-group my-3">
                     <div class="input-group-prepend">
-                        <span class="input-group-text">Task Name</span>
+                        <span class="input-group-text">Task Name </span>
                     </div>
                     <input id="taskName" type="text" class="form-control" placeholder="Task Name" aria-label="taskName"
-                        aria-describedby="basic-addon1">
-                </div>
-
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text">Date</span>
-                    </div>
-                    <input id="taskDate" type="text" class="form-control" placeholder="Date" aria-label="taskDate"
                         aria-describedby="basic-addon1">
                 </div>
 
@@ -55,8 +47,11 @@
                     <button id="addOrEditBtn" type="button" onclick="addNewTask()"
                         class="btn btn-dark btn-lg btn-block my-3">
                         <i class="far fa-calendar-plus editIcon"></i>Add</button>
+
+
                 </div>
             </section>
+
             <!--====== Final To-Do List ======-->
             <section class="w-100">
                 <div id="todoList" class="w-100 my-2">
